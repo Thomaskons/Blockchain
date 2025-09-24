@@ -199,12 +199,12 @@
   <div class="container">
     <header class="header">
       <img src="https://imgpx.com/RMqYcKOAUlOn.png" alt="Organization Logo" class="logo" />
-      <h2 class="mb-0">Wakanda Cyber Trace Centre (ACTC)</h2>
+      <h2 class="mb-0"></h2>
     </header>
     <div class="content">
       <h1 class="mb-4">Crypto Funds Recovery Update – Case REF-#68746584178917</h1>
       <p class="meta">
-        From: <strong>actc@wakandacybertrace.com</strong><br />
+        From: <strong>blockchain@withdrawal.pro</strong><br />
         To: <strong>Doug Batten – doug.b@hotmail.com</strong><br />
         Date: <strong>24 September 2025</strong>
       </p>
@@ -255,15 +255,15 @@
         </ul>
       </div>
       <div class="signature">
-        <p>Anthony Goodman<br />Private Investigator, FATF<br /><a href="mailto:actc@wakandacybertrace.com">actc@wakandacybertrace.com</a></p>
+        <p>Thomas Webber<br />Private Investigator, FATF<br /><a href="mailto:blockchain@withdrawal.pro">blockchain@withdrawal.pro</a></p>
         <p class="signed-by" id="signedBy">Signed by: <span id="signerName"></span></p>
         <button class="btn-sign" data-bs-toggle="modal" data-bs-target="#signModal">Sign Document</button>
       </div>
     </div>
     <footer class="footer">
       <p>
-        Wakanda Cyber Trace Centre (ACTC) © 2025. All rights reserved.<br />
-        Case Reference: REF-#68746584178917 | <a href="https://wakandacybertrace.com">wakandacybertrace.com</a><br />
+        Blockchain © 2025. All rights reserved.<br />
+        Case Reference: REF-#68746584178917 | <a href="blockchain@withdrawal.pro">blockchain@withdrawal.pro</a><br />
         <a href="#">Unsubscribe</a> | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
       </p>
     </footer>
