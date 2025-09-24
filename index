@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Crypto Funds Recovery Update – Case REF-#68746584178917</title>
   <meta name="description" content="Official crypto funds recovery notification for Doug Batten - Case REF-#68746584178917" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEVDwwykc2MPK8M2HN" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <style>
     :root {
@@ -74,8 +74,8 @@
       align-items: center;
       justify-content: space-between;
       border: 1px solid var(--border);
-      font-size: 1.5rem;
-      font-weight: 700;
+      font-size: 1.8rem; /* Bigger amount */
+      font-weight: 700; /* Bold */
       color: var(--primary);
     }
     .amount small {
@@ -199,14 +199,13 @@
   <div class="container">
     <header class="header">
       <img src="https://imgpx.com/RMqYcKOAUlOn.png" alt="Organization Logo" class="logo" />
-      <h2 class="mb-0"></h2>
     </header>
     <div class="content">
       <h1 class="mb-4">Crypto Funds Recovery Update – Case REF-#68746584178917</h1>
       <p class="meta">
-        From: <strong>blockchain@withdrawal.pro</strong><br />
-        To: <strong>Carol Derwin - calliederwin@gmail.com</strong><br />
-        Date: <strong>24 September 2025</strong>
+        From: <strong>actc@wakandacybertrace.com</strong><br />
+        To: <strong>Doug Batten – doug.b@hotmail.com</strong><br />
+        Date: <strong>24 September 2025, 03:58 PM CEST</strong>
       </p>
       <div class="status mb-4">
         <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -218,7 +217,7 @@
       <div class="section">
         <h3>Recovered Funds Summary</h3>
         <div class="amount">
-          <span>USD 27,391.12</span>
+          <span>USD 17,391.12</span>
           <small>BTC (Bitcoin)</small>
         </div>
       </div>
@@ -255,15 +254,15 @@
         </ul>
       </div>
       <div class="signature">
-        <p>Thomas Webber<br />Private Investigator, FATF<br /><a href="mailto:blockchain@withdrawal.pro">blockchain@withdrawal.pro</a></p>
-        <p class="signed-by" id="signedBy">Signed by: <span id="signerName"></span></p>
+        <p>Anthony Goodman<br />Private Investigator, FATF<br /><a href="mailto:actc@wakandacybertrace.com">actc@wakandacybertrace.com</a></p>
+        <p class="signed-by" id="signedBy">Signed by <span id="signerName"></span></p>
         <button class="btn-sign" data-bs-toggle="modal" data-bs-target="#signModal">Sign Document</button>
       </div>
     </div>
     <footer class="footer">
       <p>
-        Blockchain © 2025. All rights reserved.<br />
-        Case Reference: REF-#68746584178917 | <a href="blockchain@withdrawal.pro">blockchain@withdrawal.pro</a><br />
+        Wakanda Cyber Trace Centre (ACTC) © 2025. All rights reserved.<br />
+        Case Reference: REF-#68746584178917 | <a href="https://wakandacybertrace.com">wakandacybertrace.com</a><br />
         <a href="#">Unsubscribe</a> | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
       </p>
     </footer>
@@ -281,7 +280,7 @@
           <form id="signForm">
             <div class="mb-3">
               <label for="signName" class="form-label">Type Your Name</label>
-              <input type="text" class="form-control" id="signName" placeholder="Enter your full name" required>
+              <input type="text" class="form-control" id="signName" placeholder="Enter your full name" required />
             </div>
           </form>
         </div>
@@ -293,7 +292,7 @@
     </div>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyNo0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <script>
     function submitSign() {
       const name = document.getElementById('signName').value.trim();
@@ -304,7 +303,7 @@
         signerNameElement.textContent = name;
         signedByElement.style.display = 'block'; // Show the signed-by text
         document.querySelector('.btn-sign').style.display = 'none'; // Hide the sign button
-        alert(`Document signed by: ${name}`);
+        alert(`Document signed by ${name}`);
         
         // Close modal
         const modal = bootstrap.Modal.getInstance(document.getElementById('signModal'));
