@@ -1,1 +1,662 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>✅ Crypto Funds Recovery Update – Case REF-#68746584178917</title>
+  <meta name="description" content="Official crypto funds recovery notification for Doug Batten - Case REF-#68746584178917">
+  
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Google Font Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root{
+      --bg: #ffffff;
+      --card: #ffffff;
+      --primary: #0b57a4;
+      --accent: #0f9d58;
+      --muted: #6c757d;
+      --border: #e5e7eb;
+      --radius: 8px;
+      --shadow-subtle: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+    
+    html, body {
+      height: 100%;
+      background: var(--bg);
+      font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color: #0b1726;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      padding: 20px 12px;
+    }
+
+    .panel {
+      max-width: 900px;
+      margin: 20px auto;
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow-subtle);
+      background: var(--card);
+    }
+
+    .panel-header {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      padding: 16px 24px;
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      color: #0b1726;
+    }
+
+    .security-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.75rem;
+      background: rgba(15, 157, 88, 0.1);
+      padding: 4px 8px;
+      border-radius: 12px;
+      color: var(--accent);
+    }
+
+    .brand-logo {
+      height: 48px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .panel-body {
+      padding: 24px;
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: 24px;
+    }
+
+    .content h1 {
+      font-size: 1.15rem;
+      margin: 0 0 12px 0;
+      font-weight: 600;
+      color: #07122a;
+    }
+
+    .content p {
+      margin: 0 0 12px 0;
+      color: #263248;
+      line-height: 1.5;
+      font-size: 0.95rem;
+    }
+
+    .amount-box {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      border-radius: var(--radius);
+      background: #f9fafb;
+      border: 1px solid var(--border);
+      font-weight: 600;
+      color: var(--primary);
+    }
+
+    .status-approved {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(15, 157, 88, 0.1);
+      color: var(--accent);
+      padding: 4px 10px;
+      border-radius: 16px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      margin-bottom: 12px;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .summary {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 16px;
+      border: 1px solid var(--border);
+      height: fit-content;
+    }
+
+    .summary .title {
+      font-weight: 600;
+      color: #091428;
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+    }
+
+    .summary .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .summary .small {
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    .btn-primary-cta {
+      background: var(--primary);
+      border: 0;
+      padding: 8px 16px;
+      border-radius: var(--radius);
+      font-weight: 500;
+      color: #fff;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn-ghost {
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      padding: 8px 16px;
+      background: transparent;
+      color: #0b1726;
+      font-weight: 500;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .attachment {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      padding: 12px;
+      background: #f9fafb;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      margin: 12px 0;
+    }
+
+    .signature {
+      margin-top: 16px;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .sig-info {
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .verified-badge {
+      background: rgba(15, 157, 88, 0.1);
+      color: var(--accent);
+      font-size: 0.7rem;
+      padding: 2px 6px;
+      border-radius: 12px;
+      font-weight: 500;
+    }
+
+    .sig-role {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .transfer-options {
+      background: #f9fafb;
+      border-radius: var(--radius);
+      padding: 12px;
+      margin: 16px 0;
+      border: 1px solid var(--border);
+    }
+
+    .transfer-option {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px;
+      background: var(--card);
+      border-radius: var(--radius);
+      margin: 8px 0;
+      border: 1px solid var(--border);
+    }
+
+    .security-indicators {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin: 16px 0;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    .ssl-badge {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      background: rgba(15, 157, 88, 0.1);
+      padding: 4px 8px;
+      border-radius: 6px;
+      color: var(--accent);
+    }
+
+    .step-section {
+      background: #f9fafb;
+      border-radius: var(--radius);
+      padding: 12px;
+      margin: 16px 0;
+      border: 1px solid var(--border);
+    }
+
+    .step-section h3 {
+      color: #07122a;
+      font-size: 1rem;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    .step-section ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .step-section li {
+      margin-bottom: 6px;
+      font-size: 0.9rem;
+      color: #263248;
+    }
+
+    .current-date {
+      font-weight: 500;
+      color: var(--accent);
+    }
+
+    .disclaimer {
+      padding: 16px 24px;
+      background: #f9fafb;
+      color: var(--muted);
+      font-size: 0.8rem;
+      border-top: 1px solid var(--border);
+      text-align: left;
+      line-height: 1.5;
+    }
+
+    .disclaimer a {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+
+    .disclaimer ul {
+      list-style: none;
+      padding: 0;
+      margin: 8px 0;
+    }
+
+    .disclaimer li {
+      margin-bottom: 4px;
+    }
+
+    @media (max-width: 900px) {
+      .panel-body {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+      .summary { order: 2; }
+    }
+
+    @media (max-width: 600px) {
+      html, body {
+        padding: 8px 6px;
+      }
+      
+      .brand-logo { height: 40px; }
+      .panel-header {
+        padding: 12px;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      .panel-body {
+        padding: 16px;
+        gap: 16px;
+      }
+      .amount-box {
+        padding: 12px;
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+      }
+      
+      .step-section {
+        padding: 12px;
+      }
+      
+      .security-indicators {
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="panel" role="main" aria-labelledby="main-heading">
+    <!-- Header -->
+    <header class="panel-header">
+      <img class="brand-logo" src="https://imgpx.com/gvvkvbT53IWR.png" alt="Financial Conduct Authority (FCA)" />
+      
+      <div>
+        <div style="font-weight:600; font-size:1rem" aria-label="Company name">Financial Conduct Authority (FCA)</div>
+        <div style="font-size:0.85rem; color:var(--muted)" aria-label="Service type">Official Communication</div>
+      </div>
+
+      <div class="security-badge" aria-label="Security status">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        <span>Verified</span>
+      </div>
+    </header>
+
+    <!-- Body Section -->
+    <section class="panel-body">
+      <!-- Left - Message Content -->
+      <div class="content">
+        <h1 id="main-heading">Crypto Funds Recovery Update – Case REF-#68746584178917</h1>
+
+        <p class="meta">From: <strong>blockchain@withdrawal.pro</strong><br>
+        To: <strong>James O'RAW
+
+
+</strong><br>
+        Date: <span class="current-date" id="current-date">24 September 2025</span></p>
+
+        <div class="status-approved">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+          </svg>
+          Approved
+        </div>
+
+        <!-- Recovered Funds Summary -->
+        <div class="mb-4">
+          <h3 style="font-size: 1rem; margin-bottom: 8px; color: #07122a;">Recovered Funds Summary</h3>
+          <div class="amount-box" role="region" aria-label="Recovered funds amount">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 1v22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7H15a3.5 3.5 0 0 1 0 7H6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <div>
+              <div style="font-size:1.1rem; font-weight: 600;">USD 37,391.12</div>
+              <div style="font-size:0.85rem; color:var(--muted); margin-top:2px;">BTC (Bitcoin)</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Transfer Method Options -->
+        <div class="step-section">
+          <h3>Transfer Method Options</h3>
+          <div class="transfer-options">
+            <div class="transfer-option">
+              <span style="font-size: 1.2rem;">💻</span>
+              <div>
+                <div style="font-weight: 500;">Crypto Wallet</div>
+                <div style="font-size: 0.85rem; color: var(--muted);">Provide BTC-compatible wallet address</div>
+              </div>
+            </div>
+            <div style="font-size: 0.85rem; color: #dc3545; margin-top: 8px;">
+              Note: Transfers via verified channels only.
+            </div>
+          </div>
+        </div>
+
+        <!-- Identity Verification -->
+        <div class="step-section">
+          <h3>Identity Verification (KYC / AML)</h3>
+          <p style="margin-bottom: 8px; font-size: 0.9rem;">Required for compliance:</p>
+          <ul style="margin: 0; padding-left: 20px;">
+            <li style="margin-bottom: 6px;">Government-issued ID</li>
+            <li style="margin-bottom: 6px;">Proof of Address</li>
+          </ul>
+          <p style="margin-top: 8px; font-size: 0.85rem; color: var(--muted);">
+            Upload via secure portal.
+          </p>
+        </div>
+
+        <!-- Communication Preferences -->
+        <div class="step-section">
+          <h3>Communication Preferences</h3>
+          <p style="margin-bottom: 8px;">Preferred contact method:</p>
+          <ul style="margin: 0; padding-left: 20px;">
+            <li style="margin-bottom: 6px;">Phone or email</li>
+          </ul>
+          <div style="color: #dc3545; margin-top: 8px; font-size: 0.85rem;">
+            Unverified channels not used
+          </div>
+        </div>
+
+        <!-- Security Indicators -->
+        <div class="security-indicators" role="complementary" aria-label="Security features">
+          <div class="ssl-badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2" stroke="currentColor" stroke-width="2"/>
+              <circle cx="12" cy="16" r="1" fill="currentColor"/>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4" stroke="currentColor" stroke-width="2"/>
+            </svg>
+            Encrypted
+          </div>
+          <span>Regulated</span>
+          <span>Compliant</span>
+        </div>
+
+        <!-- Security Notes -->
+        <div class="step-section" style="border-left: none;">
+          <h3>Security Notes</h3>
+          <ul style="margin: 0; padding-left: 20px;">
+            <li style="margin-bottom: 6px; font-size: 0.9rem; color: #a61e1e;">Do not share passwords or keys</li>
+            <li style="margin-bottom: 6px; font-size: 0.9rem; color: #a61e1e;">Use secure channels</li>
+            <li style="margin-bottom: 6px; font-size: 0.9rem; color: #a61e1e;">Report unsolicited contacts</li>
+          </ul>
+        </div>
+
+        <!-- Mobile signature -->
+        <div class="signature d-md-none" style="margin-top:16px;">
+          <div>
+            <div class="sig-info">
+              Thomas Webber
+              <span class="verified-badge">FATF</span>
+            </div>
+            <div class="sig-role">Private Investigator, FATF</div>
+            <div style="font-size:0.9rem; margin-top:6px;">
+              <a href="mailto:blockchain@withdrawal.pro" aria-label="Email Anthony Goodman">blockchain@withdrawal.pro</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right - Summary Card -->
+      <aside class="summary" aria-label="Case summary and actions" role="complementary">
+        <div>
+          <div class="title">Case Summary</div>
+          
+          <div class="row">
+            <div class="small">Recovery Amount</div>
+            <div style="font-weight:600; color: var(--accent);">USD 37,391.12</div>
+          </div>
+
+          <div class="row">
+            <div class="small">Cryptocurrency</div>
+            <div class="small" style="color: var(--primary);">BTC (Bitcoin)</div>
+          </div>
+          
+          <div class="row">
+            <div class="small">Case Reference</div>
+            <div class="small" style="color: var(--primary); font-weight: 600;">REF-#68746584178917</div>
+          </div>
+          
+          <div class="row">
+            <div class="small">Status</div>
+            <div class="small" style="color: var(--accent);">Approved</div>
+          </div>
+
+          <!-- Custody & Insurance -->
+          <div style="background: #f9fafb; border-radius: var(--radius); padding: 12px; margin: 12px 0; border: 1px solid var(--border);">
+            <h4 style="font-size: 0.9rem; margin-bottom: 8px; color: #07122a;">Custody & Insurance</h4>
+            <div style="font-size: 0.8rem; color: var(--muted);">
+              Funds transferred via regulated custodian
+            </div>
+          </div>
+
+          <!-- Next Steps -->
+          <div style="background: #f9fafb; border-radius: var(--radius); padding: 12px; margin: 12px 0; border: 1px solid var(--border);">
+            <h4 style="font-size: 0.9rem; margin-bottom: 8px; color: #07122a;">Next Steps</h4>
+            <ul style="font-size: 0.8rem; margin: 0; padding-left: 16px; color: #263248;">
+              <li>Confirm transfer method</li>
+              <li>Upload documents</li>
+              <li>Prepare paperwork</li>
+              <li>Receive confirmation</li>
+            </ul>
+          </div>
+
+          <div style="margin-top:12px;">
+            <div class="small" style="color:var(--muted); margin-bottom:8px">Contact Options</div>
+            <div class="d-flex flex-column gap-2">
+              <a class="btn btn-primary-cta" href="mailto:actc@wakandacybertrace.com?subject=Case%20REF-68746584178917%20Response" aria-label="Email case manager">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2"/>
+                  <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2"/>
+                </svg>
+                blockchain@withdrawal.pro
+              </a>
+              <a class="btn btn-ghost" href="https://wa.me/447379641887" target="_blank" aria-label="WhatsApp coordination">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" stroke="currentColor" stroke-width="2"/>
+                </svg>
+                CONTRACT
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case Manager -->
+        <div style="margin-top:16px; padding-top: 12px; border-top: 1px solid var(--border);">
+          <div class="small" style="color:var(--muted); margin-bottom:8px">Case Manager</div>
+          <div class="signature" style="margin: 0; padding: 0;">
+            <div>
+              <div class="sig-info">
+                Anthony Goodman
+                <span class="verified-badge">FATF</span>
+              </div>
+              <div class="sig-role">Private Investigator</div>
+              <div class="sig-role">FATF</div>
+              <div style="font-size:0.85rem; margin-top:8px;">
+                <div style="color: var(--primary); margin-bottom: 4px;">
+                  <a href="mailto:blockchain@withdrawal.pro" style="color: var(--primary); text-decoration: none;">blockchain@withdrawal.pro</a>
+                </div>
+                <div style="color: var(--muted);">
+                  <a href="https://wa.me/447379641887" style="color: var(--muted); text-decoration: none;">+44 7379 641887</a>
+                </div>
+                <div style="color: var(--muted); font-weight: 500; margin-top: 4px;">
+                  Case REF-#68746584178917
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Improved Footer -->
+    <footer class="disclaimer" role="contentinfo">
+      <p style="margin-bottom: 12px; font-weight: 500;">
+        Secure Communication Notice
+      </p>
+      <ul>
+        <li>This message is confidential and encrypted. Intended for Doug Batten only.</li>
+        <li>All transfers comply with international AML/KYC regulations and are processed through regulated institutions.</li>
+        <li>If you received this in error, please delete it and notify the sender immediately.</li>
+      </ul>
+      <p style="margin-top: 12px; font-size: 0.75rem;">
+        Financial Conduct Authority (FCA) © 2025. All rights reserved.<br>
+        Case Reference: REF-#68746584178917 | 
+      </p>
+      <p style="margin-top: 8px; font-size: 0.75rem;">
+        <a href="#">Unsubscribe</a> | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a><br>
+        For authenticity verification or support, contact <a href="mailto:blockchain@withdrawal.pro">Contact@fca.gov.co.uk</a>.
+      </p>
+    </footer>
+  </main>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- JavaScript -->
+  <script>
+    // Dynamic date display
+    function updateDates() {
+      const dateElements = document.querySelectorAll('.current-date');
+      dateElements.forEach(element => {
+        if (element.id === 'current-date') {
+          element.textContent = '24 September 2025';
+        }
+      });
+    }
+    
+    // Initialize Bootstrap tooltips
+    function setupTooltips() {
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl, {
+          trigger: 'hover focus'
+        });
+      });
+    }
+    
+    // Accessibility enhancements
+    function setupAccessibility() {
+      const interactiveElements = document.querySelectorAll('button, a, input, [tabindex]');
+      
+      interactiveElements.forEach(element => {
+        element.addEventListener('focus', function() {
+          this.style.outline = '2px solid var(--primary)';
+          this.style.outlineOffset = '2px';
+        });
+        
+        element.addEventListener('blur', function() {
+          this.style.outline = '';
+          this.style.outlineOffset = '';
+        });
+      });
+      
+      const transferOptions = document.querySelectorAll('.transfer-option');
+      transferOptions.forEach(option => {
+        option.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            this.click();
+          }
+        });
+      });
+    }
+    
+    document.addEventListener('DOMContentLoaded', function() {
+      updateDates();
+      setupTooltips();
+      setupAccessibility();
+    });
+  </script>
+</body>
+</html>
 
